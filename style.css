@@ -1,13 +1,15 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
 }
 
 .container {
-    border: 5px solid #ddd;
+    border: 5px solid rgb(152, 236, 159);
     box-shadow: 0px 0px 10px;
     padding: 15px;
-    background-color: #ddd;
+    background-color: rgb(152, 236, 159);
 }
 
 .botao-calcular {
@@ -16,7 +18,12 @@ body {
     width: 100%;
     margin-top: 20px;
     padding: 10px;
-    background-color: #1b2845;
+    background-color: #0b5320;
     color: white;
     cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#resultado{
+    font-weight: bolder;
 }
